@@ -2,8 +2,11 @@ import React , {Component} from 'react';
 import {Button} from 'reactstrap';
 
 import Alert from './components/organisms/Alert';
-import Drop from './components/organisms/Dropdown'
-import Grooup from './components/organisms/ButtonGrup2'
+import Drop from './components/organisms/Dropdown';
+import Grooup from './components/organisms/ButtonGrup2';
+import Form from './components/organisms/Form';
+import FormGrid from './components/organisms/FormGrid'
+import Modal from './components/organisms/Modal'
 class App extends Component {
   render(){
   return (
@@ -20,7 +23,9 @@ class App extends Component {
     </div>
     <Grooup/>
     </div>
-
+    <Form/>
+    <FormGrid/>
+    <Modal/>
   );
 }
 }

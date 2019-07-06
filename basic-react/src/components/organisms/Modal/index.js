@@ -8,7 +8,7 @@ export default class Modal2 extends React.Component {
             modal: false
         }
     }
-
+//
     toggle = () => {
         this.setState(prevState => ({
             modal: !prevState.modal

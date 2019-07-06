@@ -22,10 +22,10 @@ class App extends Component {
     <div>
     </div>
     <Grooup/>
-    </div>
     <Form/>
     <FormGrid/>
     <Modal/>
+    </div>
   );
 }
 }
